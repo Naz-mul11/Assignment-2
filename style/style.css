@@ -1,0 +1,190 @@
+
+
+
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+/* nav style */
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111111;
+    margin-top: 57px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+.nav-title{
+    font-size: 36px;
+    font-weight: 800px;
+    color: #E6533C;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 45px;
+
+
+}
+nav ul{
+    display: flex;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.white1{
+    color: #FFFFFF;
+}
+.btn1{
+    background-color: #E6533C;
+    padding: 22px 50px;
+    font-weight: 600px;
+    border-radius: 45px;
+    color: #FFFFFF;
+}
+/* banner
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111111;
+    margin-left: 190px;
+}
+.btn2{
+    padding: 22px 50px;
+    font-weight: 600px;
+    border-radius: 45px;
+}
+
+.banner-des{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+.banner-content2{
+    
+
+}
+.img1{
+    mask-repeat: no-repeat;
+    width: 345px;
+    height: 580px;
+}  */
+.hero {
+    background-image: linear-gradient(
+      to right top,
+      #000000,
+      #100e0d,
+      #1a1716,
+      #21201c,
+      #272924
+    );
+  }
+  .hero_container {
+    width: 1180px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hreo_text_section h1 {
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 93.6px;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  .hreo_text_section H1 span {
+    font-style: italic;
+    font-weight: 400;
+  }
+  .hreo_text_section p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #ffffff80;
+    margin-bottom: 20px;
+  }
+  .hreo_text_section button {
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  #heroButtonOne {
+    background-color: #e6533c;
+  }
+  #heroButtonTwo {
+    background-color: transparent;
+  }
+  .hero_image_section {
+    position: relative;
+  }
+  .hreo_item {
+    position: absolute;
+    padding: 10px 14px;
+    border: #ffffff1a;
+    background-color: #3030308a;
+    border-radius: 20px;
+    right: -39px;
+    top: 135px;
+  }
+  .hreo_item h2 {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  .hreo_item p {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .hreo_item_two {
+    position: absolute;
+    padding: 10px 14px;
+    border: #ffffff1a;
+    background-color: #3030308a;
+    border-radius: 20px;
+    left: -90px;
+    bottom: 38px;
+  }
+  .hreo_item_two h2{
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  .hreo_item_two p{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #ffffff;
+  }
