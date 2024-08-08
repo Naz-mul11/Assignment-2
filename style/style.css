@@ -188,3 +188,33 @@ nav li a{
     text-align: left;
     color: #ffffff;
   }
+
+  /* main section  */
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .con-1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 55px;
+  }
+  .con-title{
+    font-weight: 900;
+    font-size: 48px;
+  }
+  .con-2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .img{
+    border-radius: 90px;
+    
+  }
+  .img-subtitle{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+
+  }
