@@ -16,10 +16,13 @@
     align-items: center;
     justify-content: space-between;
     background-color: #111111;
-    margin-top: 57px;
+     /* margin-top: 57px;
     margin-left: 190px;
-    margin-right: 190px;
-}
+    margin-right: 190px; */
+    padding-top: 20PX;
+    padding-left: 190PX;
+    padding-right: 190PX;
+} 
 .nav-title{
     font-size: 36px;
     font-weight: 800px;
@@ -34,6 +37,7 @@ nav ul li{
 }
 nav ul{
     display: flex;
+    align-items: center;
     
 }
 nav li a{
@@ -45,9 +49,15 @@ nav li a{
 .white1{
     color: #FFFFFF;
 }
+.white2{
+  color: rgba(255, 255, 255, 0.5);
+}
+.black{
+  background-color: black;
+}
 .btn1{
     background-color: #E6533C;
-    padding: 22px 50px;
+    padding: 15px 50px;
     font-weight: 600px;
     border-radius: 45px;
     color: #FFFFFF;
@@ -104,6 +114,7 @@ nav li a{
     margin-bottom: 15px;
   }
   .hreo_text_section H1 span {
+    font-family: Miama;
     font-style: italic;
     font-weight: 400;
   }
@@ -202,6 +213,7 @@ nav li a{
   .con-title{
     font-weight: 900;
     font-size: 48px;
+    
   }
   .con-2{
     display: flex;
@@ -218,3 +230,32 @@ nav li a{
     font-size: 18px;
 
   }
+  /* section  */
+  .img2{
+    width: 350px;
+    height: 310px;
+    border-radius: 18px;
+  }
+  .run{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #222222;
+    border-radius: 18px;
+   
+  }
+  .run-des{
+    text-align: left;
+    width: 443px;
+    height: 290px;
+    padding-left: 54px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+  }
+  .pic-run{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+  }
+    
+  
