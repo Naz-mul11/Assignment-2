@@ -61,6 +61,7 @@ nav li a{
     font-weight: 600px;
     border-radius: 45px;
     color: #FFFFFF;
+    font-size: 18px;
 }
 /* banner
   .banner{
@@ -90,12 +91,19 @@ nav li a{
 }  */
 .hero {
     background-image: linear-gradient(
-      to right top,
-      #000000,
-      #100e0d,
+      to top,
+      /* #000000,
+      #272924,
       #1a1716,
+      ,
       #21201c,
-      #272924
+      #100e0d, */
+      #111111
+      #111111
+      #111111
+      #777777
+      
+      
     );
   }
   .hero_container {
@@ -253,9 +261,25 @@ nav li a{
     padding-bottom: 70px;
   }
   .pic-run{
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 30px;
     padding-right: 40px;
+  }
+
+  /* table  */
+  .bmi{
+    background-color: #222222;
+  }
+  table{
+    border-collapse: collapse;
+  }
+
+  td{
+    border: 1px;
+    border-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    color: rgba(255, 255, 255, 0.5);
+    
   }
     
   
