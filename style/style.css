@@ -267,19 +267,61 @@ nav li a{
   }
 
   /* table  */
-  .bmi{
+  
+  .bmi-chart{
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bmi-in{
+    padding-top: 50px;
+    padding-left: 180px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    
   }
   table{
     border-collapse: collapse;
   }
+  .type{
+    font-size: 28px;
+    font-weight: 900;
+    
+  }
 
   td{
-    border: 1px;
-    border-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
     padding: 5px 10px;
     color: rgba(255, 255, 255, 0.5);
     
+  }
+  .form-in{
+    height: 48px;
+    width: 280px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .from-int{
+    height: 48px;
+    width: 575px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  table{
+    position: absolute;
+    font-size: 20px;
+  }
+
+  .bmi-form{
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-top: 70px;
   }
     
   
