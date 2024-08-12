@@ -63,32 +63,7 @@ nav li a{
     color: #FFFFFF;
     font-size: 18px;
 }
-/* banner
-  .banner{
-    display: flex;
-    justify-content: space-between;
-    background-color: #111111;
-    margin-left: 190px;
-}
-.btn2{
-    padding: 22px 50px;
-    font-weight: 600px;
-    border-radius: 45px;
-}
 
-.banner-des{
-    color: rgba(255, 255, 255, 0.5);
-    text-align: left;
-}
-.banner-content2{
-    
-
-}
-.img1{
-    mask-repeat: no-repeat;
-    width: 345px;
-    height: 580px;
-}  */
 .hero {
     background-image: linear-gradient(
       to top,
@@ -319,9 +294,121 @@ nav li a{
   }
 
   .bmi-form{
-    padding-left: 200px;
-    padding-right: 100px;
+    padding-left: 250px;
+    padding-right: 50px;
     padding-top: 70px;
+    padding-bottom: 50px;
+    
+  }
+  
+  .bmi-title{
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* Trainer */
+  .al{
+    text-align: center;
+  }
+  .image{
+    background-repeat: no-repeat;
+    height: 292px;
+    width: 360px;
+    background-size: cover;
+  }
+  .trainer{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    margin-left: 110px;
+    margin-right: 110px;
+
+  }
+
+  .trainer-1{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .trainer-2{
+    display: flex;
+    justify-content: center;
+   
+
+    
+  }
+
+  .Jerome{
+    background-image: url(../images/trainer1.png);
+    border-radius: 18px;
+    margin: 20px;
+    
+  }
+  .Cameron{
+    background-image: url(../images/trainer2.png);
+    border-radius: 18px;
+    margin: 20px;
+  }
+  .Darrell{
+    background-image: url(../images/trainer3.png);
+    border-radius: 18px;
+    margin: 20px;
+
+  }
+
+  .Dianne{
+    background-image: url(../images/trainer4.png);
+    border-radius: 18px;
+    margin: 20px;
+
+  }
+  .Cody{
+    background-image: url(../images/trainer5.png);
+    border-radius: 18px;
+    margin: 20px;
+
+  }
+  .Theresa{
+    background-image: url(../images/trainer6.png);
+    border-radius: 18px;
+    margin: 20px;
+
+  }
+
+  /* footer */
+
+  .footer-title{
+    font-size: 70px;
+    font-weight: 800px;
+    color: #E6533C;
+  }
+  .footer-con{
+    display: flex;
+    gap: 300px;
+    padding-top: 70px;
+  }
+  footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-item{
+    display: flex;
+    gap: 150px;
+  }
+  .footer-section{
+    height: 100px;
+    width: 500px;
+    padding-left: 100px;
+  }
+  .font1{
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .font2{
+    font-size: 16px;
   }
     
   
