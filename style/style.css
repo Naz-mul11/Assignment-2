@@ -24,7 +24,7 @@
     padding-right: 190PX;
 } 
 .nav-title{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800px;
     color: #E6533C;
     
@@ -42,7 +42,7 @@ nav ul{
 }
 nav li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
     
 }
@@ -61,22 +61,12 @@ nav li a{
     font-weight: 600px;
     border-radius: 45px;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 
 .hero {
     background-image: linear-gradient(
-      to top,
-      /* #000000,
-      #272924,
-      #1a1716,
-      ,
-      #21201c,
-      #100e0d, */
-      #111111
-      #111111
-      #111111
-      #777777
+      to right top, #000000, #100e0d, #1a1716, #21201c, #272924
       
       
     );
@@ -90,7 +80,7 @@ nav li a{
     align-items: center;
   }
   .hreo_text_section h1 {
-    font-size: 78px;
+    font-size: 4.87rem;
     font-weight: 900;
     line-height: 93.6px;
     color: #ffffff;
@@ -102,7 +92,7 @@ nav li a{
     font-weight: 400;
   }
   .hreo_text_section p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
@@ -113,7 +103,7 @@ nav li a{
     margin-right: 20px;
     border: none;
     outline: none;
-    font-size: 15px;
+    font-size: 1rem;
     padding: 10px 25px;
     border-radius: 20px;
     color: #ffffff;
@@ -140,7 +130,7 @@ nav li a{
   .hreo_item h2 {
     color: #ffffff;
     font-family: Inter;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 900;
     line-height: 40px;
     letter-spacing: 1px;
@@ -148,7 +138,7 @@ nav li a{
   }
   .hreo_item p {
     font-family: Inter;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 1px;
@@ -167,7 +157,7 @@ nav li a{
   .hreo_item_two h2{
     color: #ffffff;
     font-family: Inter;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 900;
     line-height: 40px;
     letter-spacing: 1px;
@@ -175,7 +165,7 @@ nav li a{
   }
   .hreo_item_two p{
     font-family: Inter;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 1px;
@@ -195,7 +185,7 @@ nav li a{
   }
   .con-title{
     font-weight: 900;
-    font-size: 48px;
+    font-size: 3rem;
     
   }
   .con-2{
@@ -210,7 +200,7 @@ nav li a{
   .img-subtitle{
     text-align: center;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.12rem;
 
   }
   /* section  */
@@ -260,7 +250,7 @@ nav li a{
     border-collapse: collapse;
   }
   .type{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 900;
     
   }
@@ -278,7 +268,7 @@ nav li a{
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   .from-int{
     height: 48px;
@@ -286,11 +276,11 @@ nav li a{
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 1rem;
   }
   table{
     position: absolute;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .bmi-form{
@@ -344,6 +334,7 @@ nav li a{
     border-radius: 18px;
     margin: 20px;
     
+    
   }
   .Cameron{
     background-image: url(../images/trainer2.png);
@@ -375,11 +366,26 @@ nav li a{
     margin: 20px;
 
   }
+  .font-size{
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #FFFFFF;
+
+  }
+  .font-size2{
+    font-size: 0.87;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .letter{
+    padding-top: 180px;
+    padding-left: 20px;
+   
+  }
 
   /* footer */
 
   .footer-title{
-    font-size: 70px;
+    font-size: 4.37rem;
     font-weight: 800px;
     color: #E6533C;
   }
@@ -397,18 +403,140 @@ nav li a{
   .footer-item{
     display: flex;
     gap: 150px;
+    padding-left: 60px;
   }
   .footer-section{
     height: 100px;
     width: 500px;
-    padding-left: 100px;
+    padding-left: 200px;
   }
   .font1{
-    font-size: 22px;
+    font-size: 1.37rem;
     font-weight: 600;
   }
   .font2{
-    font-size: 16px;
+    font-size: 1rem;
   }
+  .end{
+    width: 80%;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.1);
+  }
+  .font3{
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 20px;
+
+  }
+
+/* responsive */
+
+@media screen and (max-width:576px) {
+  nav ul li{
+    display: none;
+  }
+  .nav-title{
+    text-align: center;
+  }
+  .hreo_text_section{
+    padding-left: 0%;
+    align-self: start;
+    text-align: center;
+    
+    
+    text-align: left;
+
+
+  }
+  .hero_container{
+    flex-direction: column;
+    padding-right: 400px;
+    overflow-wrap: unset;
+    
+  }
+  .hero_image_section{
+    align-self: start;
+    
+   
+    
+  }
+  .con-1{
+    padding-top: 20px;
+  }
+ 
+  .con-2{
+    flex-direction: column;
+  }
+   .trainer-1 .trainer-2{
+  
+    flex-direction: column;
+  }
+  .run{
+    flex-direction: column;
+  }
+  .trainer-1, .trainer-2{
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .pic-run{
+    padding-left: 10px;
+  }
+    
+  
+  .run-des{
+    padding-left: 10px;
+    text-align: left;
+  }
+  .heroButtonOne, .heroButtonTwo{
+    align-items: center;
+  }
+  nav{
+    padding-left: 30px;
+  }
+  .footer-section{
+    
+    padding: 10px;
+    text-align: left;
+  }
+  .footer-con{
+    flex-direction: column;
+  }
+  .footer-item{
+    flex-direction: column;
+  }
+  .bmi-chart{
+    flex-direction: column;
+    padding-left: auto;
+    position: relative;
+    
+    
+  }
+  .bmi-in{
+    padding-left: 10px;
+
+  }
+  .bmi{
+    padding-top: 350px;
+    padding-left: 0%;
+
+  }
+  .bmi-title{
+    margin-left: auto;
+    text-align: center;
+    
+    overflow: unset;
+  }
+  .bmi-form{
+    overflow: unset;
+    padding-left: 10px;
+    padding-top: 200px;
+    align-items: center;
+  }
+  
+
+  
+}
+
     
   
